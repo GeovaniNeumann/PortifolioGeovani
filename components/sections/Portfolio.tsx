@@ -28,13 +28,13 @@ const portfolioItems = [
     category: 'Sites'
   },
   {
-  title: 'LA Car center prime',
-  description: 'Página para oficina mecânica com serviços, portfólio e formulário de contato.',
-  image: 'https://i.ibb.co/SDgdrnjc/Design-sem-nome-4.jpg',
-  url: 'https://lacarprime.vercel.app/', // Link atualizado
-  technologies: ['HTML5', 'CSS3', 'JavaScript'],
-  category: 'Sites'
-},
+    title: 'LA Car center prime',
+    description: 'Página para oficina mecânica com serviços, portfólio e formulário de contato.',
+    image: 'https://i.ibb.co/SDgdrnjc/Design-sem-nome-4.jpg',
+    url: 'https://lacarprime.vercel.app/',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    category: 'Sites'
+  },
   {
     title: 'Neumann Estética Automotiva',
     description: 'Página para estética automotiva com serviços, galeria e informações de contato.',
@@ -44,13 +44,13 @@ const portfolioItems = [
     category: 'Sites'
   },
   {
-  title: 'Adriana Bolos',
-  description: 'Página para Confeitaria com catálogo de produtos, sobre e informações de contato.',
-  image: 'https://i.ibb.co/Wvc3FSwV/Sem-nome-Post-para-Instagram-45-2.jpg',
-  url: 'https://adrianaconfeiteira.vercel.app/', // Link atualizado
-  technologies: ['HTML5', 'CSS3', 'JavaScript'],
-  category: 'Sites'
-},
+    title: 'Adriana Bolos',
+    description: 'Página para Confeitaria com catálogo de produtos, sobre e informações de contato.',
+    image: 'https://i.ibb.co/Wvc3FSwV/Sem-nome-Post-para-Instagram-45-2.jpg',
+    url: 'https://adrianaconfeiteira.vercel.app/',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    category: 'Sites'
+  },
   {
     title: 'Cantinho Das Bonecas',
     description: 'Página para artesanatos e decoração com galeria de produtos e informações de contato.',
@@ -79,21 +79,15 @@ const portfolioItems = [
 
 export const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all')
-  const [filteredItems, setFilteredItems] = useState(portfolioItems)
 
   const categories = ['all', ...new Set(portfolioItems.map(item => item.category))]
 
-  const handleFilter = (category: string) => {
-    setActiveFilter(category)
-    if (category === 'all') {
-      setFilteredItems(portfolioItems)
-    } else {
-      setFilteredItems(portfolioItems.filter(item => item.category === category))
-    }
-  }
+  const filteredItems = activeFilter === 'all' 
+    ? portfolioItems 
+    : portfolioItems.filter(item => item.category === activeFilter)
 
   return (
-    <section id="portfolio" className="section min-h-screen flex items-center">
+    <section id="portfolio" className="section min-h-screen flex items-center py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Meu Portfólio</h2>
         
@@ -102,7 +96,7 @@ export const Portfolio = () => {
           {categories.map((category) => (
             <button
               key={category}
-              onClick={() => handleFilter(category)}
+              onClick={() => setActiveFilter(category)}
               className={`px-4 py-2 rounded-full text-sm md:text-base font-medium transition-all duration-300 ${
                 activeFilter === category
                   ? 'bg-[#994828] border-[#994828] text-black'
@@ -121,18 +115,21 @@ export const Portfolio = () => {
               key={index}
               className="bg-black/60 backdrop-blur-md rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-[#994828]/30 border border-white/10 group"
             >
+              {/* Image Container */}
               <div className="h-48 overflow-hidden relative">
                 <img
                   src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                
+                {/* Overlay Adjustment: Visible on mobile, hover on desktop */}
+                <div className="absolute inset-0 bg-black/60 flex items-center justify-center transition-opacity duration-300 opacity-100 lg:opacity-0 lg:group-hover:opacity-100">
                   <a
                     href={item.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#994828] text-black px-6 py-2 rounded-full font-semibold hover:bg-[#b85c34] transition transform hover:scale-105"
+                    className="bg-[#994828] text-black px-6 py-2 rounded-full font-semibold hover:bg-[#b85c34] transition transform hover:scale-105 active:scale-95"
                   >
                     Ver Projeto
                   </a>

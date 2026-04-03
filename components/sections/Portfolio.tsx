@@ -32,7 +32,7 @@ const portfolioItems = [
     description: 'Página para oficina mecânica com serviços, portfólio e formulário de contato.',
     image: 'https://i.ibb.co/SDgdrnjc/Design-sem-nome-4.jpg',
     url: 'https://lacarprime.vercel.app/',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     category: 'Sites'
   },
   {
@@ -48,15 +48,15 @@ const portfolioItems = [
     description: 'Página para Confeitaria com catálogo de produtos, sobre e informações de contato.',
     image: 'https://i.ibb.co/Wvc3FSwV/Sem-nome-Post-para-Instagram-45-2.jpg',
     url: 'https://adrianaconfeiteira.vercel.app/',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     category: 'Sites'
   },
   {
-    title: 'Cantinho Das Bonecas',
+    title: 'Cantinho Do Artesanato',
     description: 'Página para artesanatos e decoração com galeria de produtos e informações de contato.',
     image: 'https://i.ibb.co/Wbrpc91/Logotipo-Juracema-neumann.jpg',
-    url: 'https://cantinhodasbonecas.netlify.app/',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    url: 'https://cantinhodoartesanato.vercel.app/',
+    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     category: 'Sites'
   },
   {

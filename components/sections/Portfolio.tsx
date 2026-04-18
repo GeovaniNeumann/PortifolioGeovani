@@ -54,7 +54,7 @@ const portfolioItems = [
   {
     title: 'Cantinho Do Artesanato',
     description: 'Página para artesanatos e decoração com galeria de produtos e informações de contato.',
-    image: 'https://i.ibb.co/Wbrpc91/Logotipo-Juracema-neumann.jpg',
+    image: 'https://i.ibb.co/7tkGMvTY/Design-sem-nome-28.png',
     url: 'https://cantinhodoartesanato.vercel.app/',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     category: 'Sites'
@@ -70,8 +70,8 @@ const portfolioItems = [
   {
     title: 'Anderson Brito',
     description: 'Página para personal trainer com serviços, depoimentos e informações de contato.',
-    image: 'https://i.ibb.co/jd7bkKP/Logobrito.jpg',
-    url: 'https://anderbritto.netlify.app/',
+    image: 'https://i.ibb.co/QF0yYdnF/Sem-nome-800-x-600-px-1.png',
+    url: 'https://anderbrittopersonal.vercel.app/',
     technologies: ['HTML5', 'CSS3', 'JavaScript'],
     category: 'Sites'
   }

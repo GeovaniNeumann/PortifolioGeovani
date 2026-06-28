@@ -2,7 +2,7 @@
 
 /* Fundo fixo com imagem */
 body {
-  background: url('/background.png') no-repeat center center fixed;
+  background: url('/background.webp') no-repeat center center fixed;
   background-size: cover;
   color: #eeeeeece;
   font-family: 'Poppins', sans-serif;

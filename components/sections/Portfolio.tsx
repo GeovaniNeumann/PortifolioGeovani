@@ -6,47 +6,47 @@ const portfolioItems = [
   {
     title: 'Slimshape digital',
     description: 'Desenvolvimento de site estratégico e dashboard para a Slim Shape, integrando catálogo de programas de emagrecimento, informações especializadas sobre saúde e agendamento de consultas.',
-    image: 'https://i.ibb.co/pBqwnFhk/Gemini-Generated-Image-oks7umoks7umoks7-1.png',
+    image: 'https://i.ibb.co/gMRV9DKN/Gemini-Generated-Image-oks7umoks7umoks7-1.webp',
     url: 'https://www.slimshapedigital.com.br/',
     technologies: ['Next.js', 'React', 'TypeScript', 'CSS Modules'],
     category: 'Sites'
   },
   {
-    title: 'Qfarma Vacinas',
-    description: 'Desenvolvimento de site institucional estratégico para a QFarma Vacinas, integrando catálogo de serviços, informações sobre vacinas e canal de agendamento.',
-    image: 'https://i.ibb.co/zWLxXSfk/Logo-da-qfarma.png',
-    url: 'https://www.qfarmavacinas.com.br/',
-    technologies: ['Next.js', 'React', 'TypeScript', 'CSS Modules'],
-    category: 'Sites'
-  },
+  title: 'PR Fiber',
+  description: 'Desenvolvimento de site institucional estratégico para a PR Fiber, destacando planos de internet banda larga via fibra óptica, cobertura residencial/corporativa e central de atendimento ao cliente.',
+  image: 'https://i.ibb.co/XZLrr1Mb/Captura-de-tela-2026-06-28-121402.webp', 
+  url: 'https://pr-fiber.vercel.app/',
+  technologies: ['Vite', 'React', 'Css Modules', 'JavaScript'], 
+  category: 'Sites'
+},
   {
-    title: 'DL Frios',
-    description: 'Página para revendedora de frios com catálogo de produtos e informações de contato.',
-    image: 'https://i.ibb.co/vxJq0MrG/DLfrios.png',
-    url: 'https://dlfrios.netlify.app/',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    title: 'Das Frutas',
+    description: 'Página para uma empresa que vende sucos naturais com cardápio de produtos e formulário de contato com direcionamento ao WhatsApp.',
+    image: 'https://i.ibb.co/B5dRJ8wH/o-Kj-Zs.webp',
+    url: 'https://dasfrutas.vercel.app/',
+    technologies: ['React', 'Vite', 'CSS Modules', 'JavaScript'],
     category: 'Sites'
   },
   {
     title: 'LA Car center prime',
     description: 'Página para oficina mecânica com serviços, portfólio e formulário de contato.',
-    image: 'https://i.ibb.co/SDgdrnjc/Design-sem-nome-4.jpg',
+    image: 'https://i.ibb.co/VpNhQrBn/Captura-de-tela-2026-06-28-122220-1.webp',
     url: 'https://lacarprime.vercel.app/',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     category: 'Sites'
   },
   {
-    title: 'Neumann Estética Automotiva',
-    description: 'Página para estética automotiva com serviços, galeria e informações de contato.',
-    image: 'https://i.ibb.co/DfmTL56n/lavacarprimo.jpg',
-    url: 'https://neumannesteticaautomotiva.netlify.app/',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
-    category: 'Sites'
+  title: 'Dona formiga',
+  description: 'Página para uma empresa vendedora de bolos, doces e salgados caseiros com formulário de contato e direcionamento ao WhatsApp.',
+  image: 'https://i.ibb.co/bg1Ckwv3/MOBx5.webp',
+  url: 'https://donaformigacaseirinhos.vercel.app/',
+  technologies: ['HTML5', 'CSS3', 'JavaScript'],
+  category: 'Sites'
   },
   {
     title: 'Adriana Bolos',
     description: 'Página para Confeitaria com catálogo de produtos, sobre e informações de contato.',
-    image: 'https://i.ibb.co/Wvc3FSwV/Sem-nome-Post-para-Instagram-45-2.jpg',
+    image: 'https://i.ibb.co/TDpYDKyv/Captura-de-tela-2026-06-28-115350.webp',
     url: 'https://adrianaconfeiteira.vercel.app/',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     category: 'Sites'
@@ -54,23 +54,23 @@ const portfolioItems = [
   {
     title: 'Cantinho Do Artesanato',
     description: 'Página para artesanatos e decoração com galeria de produtos e informações de contato.',
-    image: 'https://i.ibb.co/7tkGMvTY/Design-sem-nome-28.png',
+    image: 'https://i.ibb.co/yF6cmy5B/Captura-de-tela-2026-06-28-121859.webp',
     url: 'https://cantinhodoartesanato.vercel.app/',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
     category: 'Sites'
   },
   {
-    title: 'Anjus Hot Dog',
-    description: 'Página para Cachorro Quente com cardápio, localização e informações de contato.',
-    image: 'https://i.ibb.co/whDQ6TFL/logoanjus.png',
-    url: 'https://anjushotdog.netlify.app/',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
-    category: 'Sites'
-  },
+  title: 'Base Forte Pré-Moldados',
+  description: 'Landing page institucional voltada para a fabricação e montagem de barracões pré-moldados, destacando infraestrutura, soluções industriais e orçamento rápido.',
+  image: 'https://i.ibb.co/9kWkFDn8/Captura-de-tela-2026-06-28-120914.webp', 
+  url: 'https://baseforte-phi.vercel.app/',
+  technologies: ['React', 'Vite', 'CSS Modules', 'JavaScript'],
+  category: 'Sites'
+},
   {
     title: 'Anderson Brito',
     description: 'Página para personal trainer com serviços, depoimentos e informações de contato.',
-    image: 'https://i.ibb.co/QF0yYdnF/Sem-nome-800-x-600-px-1.png',
+    image: 'https://i.ibb.co/rKWSwDNj/Captura-de-tela-2026-06-28-122027.webp',
     url: 'https://anderbrittopersonal.vercel.app/',
     technologies: ['HTML5', 'CSS3', 'JavaScript'],
     category: 'Sites'

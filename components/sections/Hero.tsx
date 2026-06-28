@@ -21,9 +21,9 @@ export const Hero = () => {
           </div>
           <div className="flex justify-center mt-8 md:mt-0">
             <img 
-              src="https://i.ibb.co/JW1Dvnd8/Design-sem-nome-7-1.jpg" 
+              src="https://i.ibb.co/FqW3T5W1/Design-sem-nome-36.webp" 
               alt="Geovani Neumann"
-              className="rounded-2xl w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 object-cover border-4 border-[#994828] shadow-2xl transition hover:scale-105"
+              className="rounded-2xl w-80 h-80 sm:w-96 sm:h-96 md:w-[450px] md:h-[450px] object-cover shadow-2xl transition hover:scale-105"
             />
           </div>
         </div>

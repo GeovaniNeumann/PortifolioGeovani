@@ -8,7 +8,7 @@ export const About = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <img 
-              src="https://i.ibb.co/CSXg0Np/Design-sem-nome-10.jpg" 
+              src="https://i.ibb.co/HT3tZmN4/Design-sem-nome-10.webp" 
               alt="Trabalhando"
               className="rounded-2xl w-full shadow-2xl border border-white/10"
             />
